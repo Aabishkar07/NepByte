@@ -11,8 +11,8 @@ const Perks = () => {
             Always By <span className="text-primary">your side</span>
           </p>
           <h2 className="text-white sm:text-40 text-30 font-medium">
-            Be the first to use our Cryo<span className="text-primary">go</span>
-            !
+            Driven By Innovation, Backed By
+            <span className="text-primary"> Expertise</span> !
           </h2>
           <div className="mt-16 border border-border grid lg:grid-cols-3 sm:grid-cols-2 border-opacity-20 py-16 gap-10 px-20 rounded-3xl sm:bg-perk bg-dark_grey bg-opacity-35 lg:bg-bottom bg-center bg-no-repeat">
             {perksData.map((item, index) => (
@@ -22,7 +22,7 @@ const Perks = () => {
               >
                 <div className="bg-primary bg-opacity-25 backdrop-blur-sm p-4 rounded-full w-fit">
                   <Image
-                    src= {`${getImagePrefix()}${item.icon}`}
+                    src={`${getImagePrefix()}${item.icon}`}
                     alt={item.title}
                     width={44}
                     height={44}

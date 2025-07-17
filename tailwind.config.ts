@@ -46,6 +46,7 @@ const config: Config = {
         '999': '999'
       },
       colors: {
+        // primary: "#fa1e4e",
         primary: "#99E39E",
         secondary: "#1DC8CD",
         midnight_text: "#263238",
