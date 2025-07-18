@@ -20,7 +20,7 @@ export const pricedeta: {
   {
     title: "Domain & Hosting",
     short: "Reliable & Secure",
-    icon: "/images/icons/domain-hosting.svg",
+    icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-blue-600 bg-opacity-20",
     price: "",   // no price
     mark: "",
@@ -31,7 +31,7 @@ export const pricedeta: {
   {
     title: "App Development",
     short: "Custom Mobile & Web Apps",
-    icon: "/images/icons/app-development.svg",
+    icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-green-600 bg-opacity-20",
     price: "",
     mark: "",
@@ -42,7 +42,7 @@ export const pricedeta: {
   {
     title: "Web Development",
     short: "Modern & Responsive",
-    icon: "/images/icons/web-development.svg",
+    icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-purple-600 bg-opacity-20",
     price: "",
     mark: "",
@@ -53,7 +53,7 @@ export const pricedeta: {
   {
     title: "UI/UX Design",
     short: "User-Friendly Interfaces",
-    icon: "/images/icons/ui-ux-design.svg",
+    icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-pink-600 bg-opacity-20",
     price: "",
     mark: "",
@@ -64,7 +64,7 @@ export const pricedeta: {
   {
     title: "Graphic Designing",
     short: "Creative & Impactful",
-    icon: "/images/icons/graphic-design.svg",
+    icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-yellow-500 bg-opacity-20",
     price: "",
     mark: "",
@@ -75,7 +75,7 @@ export const pricedeta: {
   {
     title: "SEO",
     short: "Boost Your Rankings",
-    icon: "/images/icons/seo.svg",
+    icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-red-600 bg-opacity-20",
     price: "",
     mark: "",
@@ -86,7 +86,7 @@ export const pricedeta: {
   {
     title: "Digital Marketing",
     short: "Grow Your Business",
-    icon: "/images/icons/digital-marketing.svg",
+    icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-teal-600 bg-opacity-20",
     price: "",
     mark: "",
