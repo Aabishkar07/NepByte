@@ -1,16 +1,10 @@
-/** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === "production";
-
+// filepath: d:/NepByte/next.config.mjs
 const nextConfig = {
-  basePath: isProd ? "/Crypgo" : "",
-  assetPrefix: isProd ? "/Crypgo/" : "",
   output: "export",
-    distDir: 'dist', 
+  distDir: 'dist', 
   images: {
     unoptimized: true,
   },
 };
 
 export default nextConfig;
-
- 

@@ -1,6 +1,5 @@
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
-import "../Style/style.css";
 import Header from "@/components/Layout/Header";
 import Footer from "@/components/Layout/Footer";
 import { ThemeProvider } from "next-themes";
