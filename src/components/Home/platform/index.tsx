@@ -7,12 +7,11 @@ const Platform = () => {
         <div className="bg-section bg-opacity-10 px-16 py-14 rounded-3xl border-2 border-opacity-20 border-section grid grid-cols-12 items-center before:content-[''] before:absolute relative before:w-96 before:h-64 before:bg-start before:bg-no-repeat before:-bottom-11 overflow-hidden lg:before:right-48 before:-z-1 before:opacity-10 ">
           <div className="lg:col-span-8 col-span-12">
             <h2 className="text-white sm:text-40 text-30 mb-6">
-              Powered by the Cryp<span className="text-primary">go</span>{" "}
-              Platform
+              Powered by the <span className="text-primary">NepByte</span> Platform
             </h2>
             <p className="text-muted text-opacity-60 text-18">
-              Our products empower people to have safer and more
-              <br /> trustworthy experiences.
+              Delivering cutting-edge technology solutions that empower your business<br />
+              to innovate faster, operate smarter, and grow sustainably.
             </p>
           </div>
           <div className="lg:col-span-4 col-span-12">

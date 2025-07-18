@@ -23,20 +23,24 @@ const Work = () => {
   const services = [
     {
       icon: "/images/icons/icon-consulting.svg",
-      text: "Blockchain Consulting",
+      text: "IT Consulting & Strategy",
     },
     {
       icon: "/images/icons/icon-blockchain.svg",
-      text: "Blockchain Solutions",
+      text: "Custom Software Development",
     },
     {
       icon: "/images/icons/icon-Services.svg",
-      text: "Custom Development",
+      text: "Digital Transformation",
     },
+      {
+    icon: "/images/icons/icon-consulting.svg",
+    text: "Custom Software Development",
+  },
   ];
 
   return (
-    <section className="md:pt-28" id="work">
+    <section className="md:pt-10" id="work">
       <div className="container mx-auto lg:max-w-screen-xl px-4">
         <div ref={ref} className="grid grid-cols-12 items-center">
           <motion.div
@@ -47,7 +51,7 @@ const Work = () => {
               Work with <span className="text-primary">us</span>
             </p>
             <h2 className="sm:text-40 text-30 text-white lg:w-full md:w-70% font-medium">
-              Successfully launch your blockchain project.
+              Delivering Tailored Tech Solutions for Your Business Growth
             </h2>
             <div className="grid md:grid-cols-2 gap-7 mt-11">
               {services.map((service, index) => (

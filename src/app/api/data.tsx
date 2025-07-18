@@ -100,23 +100,23 @@ export const pricedeta: {
 export const portfolioData: { image: string; title: string }[] = [
   {
     image: "/images/portfolio/icon-wallet.svg",
-    title: "Manage your portfolio",
+    title: "SEO Optimization",
   },
   {
     image: "/images/portfolio/icon-vault.svg",
-    title: "Vault protection",
+    title: "Campaign Analytics",
   },
   {
     image: "/images/portfolio/icon-mobileapp.svg",
-    title: "Mobile apps",
+    title: "Social Media Management",
   },
 ];
 
 export const upgradeData: { title: string }[] = [
-  { title: "100% Secure" },
-  { title: "A Fraction of the Cost" },
-  { title: "More Durable" },
-  { title: "Easier to Use" },
+  { title: "Robust Security" },
+  { title: "Cost-Effective Solutions" },
+  { title: "Built to Last" },
+  { title: "User-Friendly Experience" },
 ];
 
 export const perksData: {
