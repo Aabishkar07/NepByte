@@ -5,6 +5,7 @@ const nextConfig = {
   basePath: isProd ? "/Crypgo" : "",
   assetPrefix: isProd ? "/Crypgo/" : "",
   output: "export",
+    distDir: 'dist', 
   images: {
     unoptimized: true,
   },
