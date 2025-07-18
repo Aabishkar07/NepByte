@@ -7,6 +7,6 @@
 // export { getImagePrefix };
  
 
-const getImagePrefix = () => {
-  return "";
+export const getImagePrefix = () => {
+  return process.env.NODE_ENV === "production" ? "" : "";
 };
