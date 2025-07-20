@@ -47,7 +47,7 @@ const config: Config = {
       },
       colors: {
         // primary: "#fa1e4e",
-        primary: "#99E39E",
+        primary: "#ed1c24",
         secondary: "#1DC8CD",
         midnight_text: "#263238",
         muted: "#d8dbdb",
