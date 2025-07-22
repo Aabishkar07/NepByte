@@ -9,15 +9,14 @@ const Upgrade = () => {
       <div className="container mx-auto lg:max-w-screen-xl px-4">
         <div className="grid lg:grid-cols-2 sm:gap-0 gap-10 items-center">
           <div>
-            <p className="text-primary sm:text-28 text-18 mb-3">NepByte: A Smarter Technology Choice
+            <p className="text-primary sm:text-28 text-18 mb-3">NepByte : A Smarter Technology Choice
 
 </p>
             <h2 className="text-white sm:text-40 text-30  font-medium mb-5">
-               Upgrade Your Technology Stack
+               Why Choose NepByte as Your IT Company in Kathmandu?
             </h2>
             <p className="text-muted text-opacity-60 text-18 mb-7">
-               Future-proof your business with faster, smarter, and more secure IT solutions. From infrastructure to innovation, we help you modernize with purpose and performance in mind.
-
+The right IT partner could make a world of difference. Here are a few reasons why NepByte is the most trusted   <strong className="text-white"> IT company in Kathmandu </strong> by many companies: Experienced and Talented Team: We have an amazing team of professionals in fields that include web development, SEO, design, and digital marketing. 
             </p>
             <div className="grid sm:grid-cols-2 lg:w-70% text-nowrap sm:gap-10 gap-5">
               {upgradeData.map((item, index) => (

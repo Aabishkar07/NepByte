@@ -11,18 +11,18 @@ export const pricedeta: {
   short: string;
   icon: string;
   background: string;
-  price?: string;  // optional, removed or empty
-  mark?: string;   // optional, removed or empty
+  price?: string;
+  mark?: string;
   width: number;
   height: number;
   padding: string;
 }[] = [
   {
     title: "Domain & Hosting",
-    short: "Reliable & Secure",
+    short: "Secure domains and fast, reliable hosting for your website needs.",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-blue-600 bg-opacity-20",
-    price: "",   // no price
+    price: "",
     mark: "",
     width: 30,
     height: 30,
@@ -30,7 +30,7 @@ export const pricedeta: {
   },
   {
     title: "App Development",
-    short: "Custom Mobile & Web Apps",
+    short: "Custom mobile and web apps built to scale your business goals.",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-green-600 bg-opacity-20",
     price: "",
@@ -41,7 +41,7 @@ export const pricedeta: {
   },
   {
     title: "Web Development",
-    short: "Modern & Responsive",
+    short: "Modern, responsive websites with fast performance and great usability.",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-purple-600 bg-opacity-20",
     price: "",
@@ -52,7 +52,7 @@ export const pricedeta: {
   },
   {
     title: "UI/UX Design",
-    short: "User-Friendly Interfaces",
+    short: "Clean, user-focused designs for smooth, intuitive digital experiences.",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-pink-600 bg-opacity-20",
     price: "",
@@ -63,7 +63,7 @@ export const pricedeta: {
   },
   {
     title: "Graphic Designing",
-    short: "Creative & Impactful",
+    short: "Creative visuals that strengthen your brand identity and message.",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-yellow-500 bg-opacity-20",
     price: "",
@@ -74,7 +74,7 @@ export const pricedeta: {
   },
   {
     title: "SEO",
-    short: "Boost Your Rankings",
+    short: "Optimize visibility with content, speed, and smart keyword strategies.",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-red-600 bg-opacity-20",
     price: "",
@@ -85,7 +85,7 @@ export const pricedeta: {
   },
   {
     title: "Digital Marketing",
-    short: "Grow Your Business",
+    short: "Reach your audience with ads, email, and social media campaigns.",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-teal-600 bg-opacity-20",
     price: "",
@@ -95,6 +95,7 @@ export const pricedeta: {
     padding: "px-4 py-3",
   },
 ];
+
 
 
 export const portfolioData: { image: string; title: string }[] = [
@@ -113,10 +114,10 @@ export const portfolioData: { image: string; title: string }[] = [
 ];
 
 export const upgradeData: { title: string }[] = [
-  { title: "Robust Security" },
-  { title: "Cost-Effective Solutions" },
-  { title: "Built to Last" },
-  { title: "User-Friendly Experience" },
+  { title: "Low Cost Pricing" },
+  { title: "Comprehensive Solutions" },
+  { title: "Proven Results" },
+  { title: "Dependable Customer Service" },
 ];
 
 export const perksData: {

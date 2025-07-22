@@ -68,16 +68,23 @@ const Hero = () => {
                 height={40}
               />
               <p className="text-white sm:text-28 text-18 mb-0">
-                Code Meets <span className="text-primary">Creativity</span>
+                Where Ideas Go <span className="text-primary">Digital</span>
               </p>
             </div>
-            <h1 className="font-medium lg:text-76 md:text-70 text-54 lg:text-start text-center text-white mb-10">
-              Turning <span className="text-primary">ideas </span> into{" "}
-              <span className="text-primary">impact</span> !
+            <h1 className="font-medium text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[39px] text-center lg:text-start text-white mb-4">
+              Welcome to NepByte –{" "}
+              <span className="text-primary">Your Reliable</span> IT Company{" "}
+              <span className="text-white">in Kathmandu !</span>
             </h1>
+
+
+ <p className="text-white/80 text-center lg:text-start text-base sm:text-lg max-w-[90%] lg:max-w-[85%] mb-8 leading-relaxed">
+    We specialize in turning your business vision into digital reality. From web development to custom software solutions — we're your full-service IT partner.
+  </p>
+
             <div className="flex items-center md:justify-start justify-center gap-8">
               <button
-                className="bg-primary border border-primary rounded-lg text-21 font-medium hover:bg-transparent hover:text-primary text-darkmode py-2 px-7 z-50"
+                className="bg-primary border border-primary rounded-lg text-21 font-medium hover:bg-transparent hover:text-primary text-white py-2 px-7 z-50"
                 onClick={() => setIsBuyingOpen(true)}
               >
                 Your Vision Our Code
@@ -89,24 +96,35 @@ const Hero = () => {
                 Contact us
               </button>
             </div>
-            <div className="flex items-center md:justify-start justify-center gap-12 mt-20">
-              <Link href="#" className="hover:scale-110 duration-300">
-                <Image
-                  src={`${getImagePrefix()}images/hero/playstore.png`}
-                  alt="Play Store"
-                  width={240}
-                  height={70}
-                />
-              </Link>
-              <Link href="#" className="hover:scale-110 duration-300">
-                <Image
-                  src={`${getImagePrefix()}images/hero/applestore.png`}
-                  alt="App Store"
-                  width={240}
-                  height={70}
-                />
-              </Link>
-            </div>
+        
+  <div className="flex gap-4 items-center mt-8">
+  <Link href="#" className="group p-2 rounded-full bg-white/10 hover:bg-white/20 transition duration-300">
+    <Icon
+      icon="fa6-brands:facebook-f"
+      width="26"
+      height="26"
+      className="text-white group-hover:text-primary transition duration-300"
+    />
+  </Link>
+  <Link href="#" className="group p-2 rounded-full bg-white/10 hover:bg-white/26 transition duration-300">
+    <Icon
+      icon="fa6-brands:instagram"
+      width="26"
+      height="26"
+      className="text-white group-hover:text-primary transition duration-300"
+    />
+  </Link>
+   <Link href="#" className="group p-2 rounded-full bg-white/10 hover:bg-white/26 transition duration-300">
+      <Icon
+        icon="fa6-brands:linkedin-in"
+        width="26"
+        height="26"
+        className="text-white group-hover:text-primary transition duration-300"
+      />
+    </Link>
+</div>
+
+
           </motion.div>
           <motion.div
             {...rightAnimation}
