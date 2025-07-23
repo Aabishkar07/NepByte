@@ -1,3 +1,8 @@
 {
-  "/page": "app/page.js"
+  "/services/page": "app/services/page.js",
+  "/appdev/page": "app/appdev/page.js",
+  "/webiste/page": "app/webiste/page.js",
+  "/digitalmarketing/page": "app/digitalmarketing/page.js",
+  "/page": "app/page.js",
+  "/about/page": "app/about/page.js"
 }

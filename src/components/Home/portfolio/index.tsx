@@ -29,17 +29,16 @@ const Portfolio = () => {
             transition={{ duration: 0.6 }}
           >
             <p className="sm:text-28 text-18 text-muted mb-4">
-               Digital Solutions  <span className="text-primary">Made Simple</span>
+              Full-Funnel IT Company  <span className="text-primary">in Kathmandu</span>
             </p>
             <h2 className="text-white sm:text-40 text-30 mb-4 font-medium">
-Build and Manage Your Digital Solutions with 
 
-              <span className="text-primary"> Ease</span> !
+NepByte – Driving Results from 
+
+              <span className="text-primary"> Clicks to Conversions</span> !
             </h2>
             <p className="text-muted text-opacity-60 text-18">
-A unified platform to monitor, optimize, and grow your
-
-              <br className="md:block hidden" />  technology investments.
+At NepByte, we don’t just build websites - we build entire digital journeys. As one of Kathmandu’s leading IT companies.
             </p>
 
             <table className="w-full sm:w-[80%]">

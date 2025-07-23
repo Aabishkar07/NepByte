@@ -7,6 +7,7 @@ import Portfolio from "@/components/Home/portfolio";
 import Upgrade from "@/components/Home/upgrade";
 import Perks from "@/components/Home/perks";
 import { Metadata } from "next";
+import FAQ from "@/components/Home/Faq";
 export const metadata: Metadata = {
   title: "NepByte",
 };
@@ -21,6 +22,8 @@ export default function Home() {
       <Portfolio />
       <Upgrade />
       <Perks />
+      <FAQ />
+
     </main>
   );
 }
