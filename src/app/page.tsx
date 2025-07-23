@@ -7,7 +7,7 @@ import Portfolio from "@/components/Home/portfolio";
 import Upgrade from "@/components/Home/upgrade";
 import Perks from "@/components/Home/perks";
 import { Metadata } from "next";
-
+import FAQ from "@/components/Home/Faq";
 export const metadata: Metadata = {
   title: "NepByte - Leading IT & Software Development Company in Kathmandu",
   description: "NepByte is a premier IT company in Kathmandu offering web development, app development, SEO, UI/UX design, and digital marketing services to transform your business vision into digital reality.",
@@ -75,6 +75,8 @@ export default function Home() {
       <Portfolio />
       <Upgrade />
       <Perks />
+      <FAQ />
+
     </main>
   );
 }

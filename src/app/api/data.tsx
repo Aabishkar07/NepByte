@@ -101,15 +101,15 @@ export const pricedeta: {
 export const portfolioData: { image: string; title: string }[] = [
   {
     image: "/images/portfolio/icon-wallet.svg",
-    title: "SEO Optimization",
+    title: "Customer Acquisition",
   },
   {
     image: "/images/portfolio/icon-vault.svg",
-    title: "Campaign Analytics",
+    title: "Customer Retention",
   },
   {
     image: "/images/portfolio/icon-mobileapp.svg",
-    title: "Social Media Management",
+    title: "Conversions",
   },
 ];
 

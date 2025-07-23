@@ -11,42 +11,49 @@ const services = [
     short: "Reliable & Secure",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-blue-600 bg-opacity-20",
+      href: "/domain", 
   },
   {
     title: "App Development",
     short: "Custom Mobile & Web Apps",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-green-600 bg-opacity-20",
+    href: "/appdev",
   },
   {
     title: "Web Development",
     short: "Modern & Responsive",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-purple-600 bg-opacity-20",
+    href: "/webiste",
   },
   {
     title: "UI/UX Design",
     short: "User-Friendly Interfaces",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-pink-600 bg-opacity-20",
+    href: "/uiux",
   },
   {
     title: "Graphic Designing",
     short: "Creative & Impactful",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-yellow-500 bg-opacity-20",
+    href: "/graphics",
   },
   {
     title: "SEO",
     short: "Boost Your Rankings",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-red-600 bg-opacity-20",
+    href: "/seo",
   },
   {
     title: "Digital Marketing",
     short: "Grow Your Business",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-teal-600 bg-opacity-20",
+    href: "/digitalmarketing",
   },
 ];
 
@@ -96,8 +103,7 @@ export default function ServicesPage() {
           Our Services
         </h1>
         <p className="text-slate-300 text-lg md:text-xl">
-          At NauloTech, we deliver impactful digital solutions tailored to your business. Explore our full-service offerings to grow your digital presence.
-        </p>
+NepByte offers a full range of IT services that help your business grow in today’s digital world:        </p>
       </section>
 
       {/* Services Grid */}
@@ -118,6 +124,9 @@ export default function ServicesPage() {
               <h3 className="text-2xl font-semibold">{service.title}</h3>
             </div>
             <p className="text-slate-300">{service.short}</p>
+             <a href={service.href} className="text-blue-600 underline">
+        Learn More
+      </a>
           </motion.div>
         ))}
       </section>
