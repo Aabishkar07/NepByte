@@ -17,7 +17,7 @@ const Portfolio = () => {
           >
             <Image
               src= {`${getImagePrefix()}images/portfolio/img-portfolio.png`}
-              alt="Crypto Portfolio"
+              alt="NepByte Digital Solutions Portfolio - IT Services in Kathmandu"
               width={780}
               height={700}
             />
@@ -53,7 +53,7 @@ A unified platform to monitor, optimize, and grow your
                       <div className="bg-primary p-4 rounded-full bg-opacity-20 w-fit">
                         <Image
                           src= {`${getImagePrefix()}${item.image}`}
-                          alt={item.title}
+                          alt={`${item.title} - NepByte IT Services`}
                           width={35}
                           height={35}
                         />

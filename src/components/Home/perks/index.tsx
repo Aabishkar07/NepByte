@@ -23,7 +23,7 @@ const Perks = () => {
                 <div className="bg-primary bg-opacity-25 backdrop-blur-sm p-4 rounded-full w-fit">
                   <Image
                     src={`${getImagePrefix()}${item.icon}`}
-                    alt={item.title}
+                    alt={`${item.title} - NepByte IT Services Benefit`}
                     width={44}
                     height={44}
                   />

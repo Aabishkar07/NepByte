@@ -59,14 +59,14 @@ const ForgotPassword = () => {
                 <Link href="/" className="mx-auto inline-block max-w-[160px]">
                   <Image
                     src= {`${getImagePrefix()}images/logo/logo.svg`}
-                    alt="logo"
+                    alt="NepByte - IT & Software Development Company in Kathmandu"
                     width={140}
                     height={30}
                     className="dark:hidden"
                   />
                   <Image
                     src= {`${getImagePrefix()}images/logo/logo-white.svg`}
-                    alt="logo"
+                    alt="NepByte - IT & Software Development Company in Kathmandu"
                     width={140}
                     height={30}
                     className="hidden dark:block"

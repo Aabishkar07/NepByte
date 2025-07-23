@@ -40,7 +40,7 @@ const TimeLine = () => {
               <div>
                 <Image
                   src= {`${getImagePrefix()}images/timeline/img-timeline.png`} 
-                  alt="image"
+                  alt="NepByte Development Timeline - IT Project Lifecycle"
                   width={1220}
                   height={1000}
                   className="w-80% mx-auto"
@@ -56,7 +56,7 @@ const TimeLine = () => {
                 <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm px-6 py-2 h-fit rounded-full">
                   <Image
                     src= {`${getImagePrefix()}images/timeline/icon-planning.svg`}
-                    alt="Planning"
+                    alt="Planning Phase - NepByte Development Process"
                     width={44}
                     height={44}
                     className="w-16 h-16 "
@@ -67,7 +67,7 @@ const TimeLine = () => {
                 <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm p-6 h-fit rounded-full">
                   <Image
                     src= {`${getImagePrefix()}images/timeline/icon-refinement.svg`}
-                    alt="Refinement"
+                    alt="Refinement Phase - NepByte Development Process"
                     width={44}
                     height={44}
                   />
@@ -89,7 +89,7 @@ const TimeLine = () => {
                 <div className="bg-light_grey bg-opacity-45 backdrop-blur-sm px-6 py-2 h-fit rounded-full">
                   <Image
                     src= {`${getImagePrefix()}images/timeline/icon-prototype.svg`}
-                    alt="Prototype"
+                    alt="Prototype Phase - NepByte Development Process"
                     width={44}
                     height={44}
                     className="w-16 h-16 "
@@ -122,7 +122,7 @@ const TimeLine = () => {
                   <div className="bg-light_grey bg-opacity-45 p-6 rounded-full">
                     <Image
                       src= {`${getImagePrefix()}${item.icon}`}
-                      alt={item.title}
+                      alt={`${item.title} Phase - NepByte Development Process`}
                       width={44}
                       height={44}
                     />

@@ -77,10 +77,11 @@ const Hero = () => {
               <span className="text-white">in Kathmandu !</span>
             </h1>
 
-
- <p className="text-white/80 text-center lg:text-start text-base sm:text-lg max-w-[90%] lg:max-w-[85%] mb-8 leading-relaxed">
-    We specialize in turning your business vision into digital reality. From web development to custom software solutions — we're your full-service IT partner.
-  </p>
+            <p className="text-white/80 text-center lg:text-start text-base sm:text-lg max-w-[90%] lg:max-w-[85%] mb-8 leading-relaxed">
+              We specialize in turning your business vision into digital
+              reality. From web development to custom software solutions — we're
+              your full-service IT partner.
+            </p>
 
             <div className="flex items-center md:justify-start justify-center gap-8">
               <button
@@ -96,35 +97,42 @@ const Hero = () => {
                 Contact us
               </button>
             </div>
-        
-  <div className="flex gap-4 items-center mt-8">
-  <Link href="#" className="group p-2 rounded-full bg-white/10 hover:bg-white/20 transition duration-300">
-    <Icon
-      icon="fa6-brands:facebook-f"
-      width="26"
-      height="26"
-      className="text-white group-hover:text-primary transition duration-300"
-    />
-  </Link>
-  <Link href="#" className="group p-2 rounded-full bg-white/10 hover:bg-white/26 transition duration-300">
-    <Icon
-      icon="fa6-brands:instagram"
-      width="26"
-      height="26"
-      className="text-white group-hover:text-primary transition duration-300"
-    />
-  </Link>
-   <Link href="#" className="group p-2 rounded-full bg-white/10 hover:bg-white/26 transition duration-300">
-      <Icon
-        icon="fa6-brands:linkedin-in"
-        width="26"
-        height="26"
-        className="text-white group-hover:text-primary transition duration-300"
-      />
-    </Link>
-</div>
 
-
+            <div className="flex gap-4 items-center mt-8">
+              <Link
+                href="#"
+                className="group p-2 rounded-full bg-white/10 hover:bg-white/20 transition duration-300"
+              >
+                <Icon
+                  icon="fa6-brands:facebook-f"
+                  width="26"
+                  height="26"
+                  className="text-white group-hover:text-primary transition duration-300"
+                />
+              </Link>
+              <Link
+                href="#"
+                className="group p-2 rounded-full bg-white/10 hover:bg-white/26 transition duration-300"
+              >
+                <Icon
+                  icon="fa6-brands:instagram"
+                  width="26"
+                  height="26"
+                  className="text-white group-hover:text-primary transition duration-300"
+                />
+              </Link>
+              <Link
+                href="#"
+                className="group p-2 rounded-full bg-white/10 hover:bg-white/26 transition duration-300"
+              >
+                <Icon
+                  icon="fa6-brands:linkedin-in"
+                  width="26"
+                  height="26"
+                  className="text-white group-hover:text-primary transition duration-300"
+                />
+              </Link>
+            </div>
           </motion.div>
           <motion.div
             {...rightAnimation}
@@ -133,9 +141,10 @@ const Hero = () => {
             <div className="ml-20 -mr-64">
               <Image
                 src={`${getImagePrefix()}images/hero/banner-image.png`}
-                alt="Banner"
-                width={1150}
-                height={1150}
+                alt="NepByte IT Solutions - Web and App Development Services in Kathmandu"
+                width={600}
+                height={400}
+                priority
               />
             </div>
           </motion.div>

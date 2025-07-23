@@ -45,7 +45,7 @@ const CardSlider = () => {
                 >
                   <Image
                     src={`${getImagePrefix()}${item.icon}`}
-                    alt={item.title}
+                    alt={`${item.title} - NepByte IT Services`}
                     width={item.width}
                     height={item.height}
                   />
