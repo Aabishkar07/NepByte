@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Platform = () => {
   return (
-    <section className="md:pt-44 sm:pt-24 pt-12 relative z-1 overflow-hidden">
+    <section className=" sm:pt-24 pt-12 relative z-1 overflow-hidden">
       <div className="container mx-auto lg:max-w-screen-xl px-4">
         {/* Main Content Card */}
         <div className="relative group">

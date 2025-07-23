@@ -15,7 +15,7 @@ const TimeLine = () => {
     transition: { duration: 0.6, delay: 0.4 },
   };
   return (
-    <section className="md:pt-40 pt-9" id="development">
+    <section className="md:pt-20 pt-9" id="development">
       <div className="container mx-auto lg:max-w-screen-xl md:max-w-screen-md lg:px-16 px-4">
         <div className="text-center">
           <motion.div

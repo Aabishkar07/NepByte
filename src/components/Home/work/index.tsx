@@ -40,7 +40,7 @@ const Work = () => {
   ];
 
   return (
-    <section className="py-16 lg:py-24 relative overflow-hidden" id="work">
+    <section className=" relative overflow-hidden" id="work">
       {/* Background Elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-1/4 left-10 w-72 h-72 bg-primary rounded-full blur-3xl"></div>

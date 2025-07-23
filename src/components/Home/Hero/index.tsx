@@ -54,7 +54,7 @@ const Hero = () => {
 
   return (
     <section
-      className="relative md:pt-40 md:pb-28 py-20 overflow-hidden z-1"
+      className="relative md:pt-40  py-20 overflow-hidden z-1"
       id="main-banner"
     >
       <div className="container mx-auto lg:max-w-screen-xl px-4">
@@ -142,8 +142,8 @@ const Hero = () => {
               <Image
                 src={`${getImagePrefix()}images/hero/banner-image.png`}
                 alt="NepByte IT Solutions - Web and App Development Services in Kathmandu"
-                width={600}
-                height={400}
+                width={650}
+                height={800}
                 priority
               />
             </div>
