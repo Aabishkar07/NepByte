@@ -53,8 +53,7 @@ export default function SEOPage() {
           />
           <h2 className="text-3xl font-bold mb-4">Off-Page SEO & Backlinks</h2>
           <p className="text-slate-300">
-            Build authority and trust with quality backlinks and citations to boost your search engine rankings.
-          </p>
+Our SEO experts offer SEO services in Nepal. Get local SEO and technical SEO built into your services, and let us help you build backlink profiles. We also offer digital marketing solutions, and our campaigns work. Social media ads, google ads, and email marketing minimize the financial impact to generate brand growth.          </p>
         </motion.div>
       </section>
 

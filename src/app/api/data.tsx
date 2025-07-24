@@ -98,18 +98,23 @@ export const pricedeta: {
 
 
 
-export const portfolioData: { image: string; title: string }[] = [
+export const portfolioData: { image: string; title: string ; short:String }[] = [
   {
     image: "/images/portfolio/icon-wallet.svg",
     title: "Customer Acquisition",
+    short: "With deliberate, laser-focused Google Ads, impactful SEO strategies in Nepal, and creative social media marketing, we bring customers to your business.",
   },
   {
     image: "/images/portfolio/icon-vault.svg",
     title: "Customer Retention",
+        short: "Acquiring customers is only half the challenge. Retaining customers, and having them return repeatedly is the real challenge, and that is what drives us. ",
+
   },
   {
     image: "/images/portfolio/icon-mobileapp.svg",
     title: "Conversions",
+        short: " Clicks are always going to occur. We turn those clicks into customers. Whether it's smart design, relevant messaging, or user experience optimization, we are here to better the performance of your website.",
+
   },
 ];
 

@@ -9,7 +9,7 @@ const services = [
     short: "Reliable & Secure",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-blue-600 bg-opacity-20",
-      href: "/domain", 
+    href: "/domain",
   },
   {
     title: "App Development",
@@ -101,7 +101,9 @@ export default function ServicesPage() {
           Our Services
         </h1>
         <p className="text-slate-300 text-lg md:text-xl">
-NepByte offers a full range of IT services that help your business grow in today’s digital world:        </p>
+          NepByte offers a full range of IT services that help your business
+          grow in today’s digital world:{" "}
+        </p>
       </section>
 
       {/* Services Grid */}
@@ -117,14 +119,35 @@ NepByte offers a full range of IT services that help your business grow in today
           >
             <div className="flex items-center gap-4 mb-4">
               <div className="w-12 h-12 p-2 bg-white/10 rounded-full flex items-center justify-center">
-                <Image src={service.icon} alt={service.title} width={30} height={30} />
+                <Image
+                  src={service.icon}
+                  alt={service.title}
+                  width={30}
+                  height={30}
+                />
               </div>
               <h3 className="text-2xl font-semibold">{service.title}</h3>
             </div>
             <p className="text-slate-300">{service.short}</p>
-             <a href={service.href} className="text-blue-600 underline">
-        Learn More
-      </a>
+            <a
+              href={service.href}
+              className="inline-flex items-center pt-3 text-white  font-semibold hover:text-blue-800 transition duration-300 group"
+            >
+              Learn More
+              <svg
+                className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </a>
           </motion.div>
         ))}
       </section>
@@ -133,7 +156,8 @@ NepByte offers a full range of IT services that help your business grow in today
       <section className="text-center max-w-5xl mx-auto mb-24">
         <h2 className="text-4xl font-bold mb-4">Digital Marketing Packages</h2>
         <p className="text-slate-400 mb-12 text-lg">
-          Choose the perfect plan to elevate your brand, reach more people, and grow your business.
+          Choose the perfect plan to elevate your brand, reach more people, and
+          grow your business.
         </p>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -145,10 +169,14 @@ NepByte offers a full range of IT services that help your business grow in today
               transition={{ duration: 0.5, delay: index * 0.2 }}
               viewport={{ once: true }}
               className={`rounded-2xl border border-white/10 p-6 shadow-xl backdrop-blur-lg ${
-                plan.popular ? "scale-105 bg-white/10 border-yellow-400" : "bg-white/5"
+                plan.popular
+                  ? "scale-105 bg-white/10 border-yellow-400"
+                  : "bg-white/5"
               }`}
             >
-              <h3 className="text-2xl font-bold mb-2 text-white">{plan.name}</h3>
+              <h3 className="text-2xl font-bold mb-2 text-white">
+                {plan.name}
+              </h3>
               <p className="text-3xl font-extrabold mb-6 bg-gradient-to-r text-transparent bg-clip-text ${plan.color}">
                 {plan.price}
               </p>
@@ -178,7 +206,8 @@ NepByte offers a full range of IT services that help your business grow in today
             Let's Build Something Great Together
           </h2>
           <p className="text-slate-400 mb-6">
-            Whether it's your first project or you're scaling up, we're ready to help you succeed.
+            Whether it's your first project or you're scaling up, we're ready to
+            help you succeed.
           </p>
           <a
             href="/contact"

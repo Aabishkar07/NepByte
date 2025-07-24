@@ -53,8 +53,7 @@ export default function WebDevelopmentPage() {
           />
           <h2 className="text-3xl font-bold mb-4">Custom Web Solutions</h2>
           <p className="text-slate-300">
-            Whether it's a corporate site, eCommerce platform, or booking system — we develop tailored web apps that meet your goals.
-          </p>
+We build secure, fast, responsive websites, in Kathmandu. From full e-commerce websites to custom builds, we will make it user-friendly, so your vision becomes a digital product.          </p>
         </motion.div>
       </section>
 

@@ -6,7 +6,7 @@ import { getImagePrefix } from "@/utils/utils";
 
 const Portfolio = () => {
   return (
-    <section className="md:pt-48 sm:pt-28 pt-12" id="portfolio">
+    <section className=" sm:pt-28 pt-12" id="portfolio">
       <div className="container mx-auto lg:max-w-screen-xl px-4 sm:px-6">
         <div className="grid lg:grid-cols-2 items-center gap-20">
           <motion.div
@@ -16,7 +16,7 @@ const Portfolio = () => {
             className="lg:-ml-32"
           >
             <Image
-              src= {`${getImagePrefix()}images/portfolio/img-portfolio.png`}
+              src={`${getImagePrefix()}images/portfolio/img-portfolio.png`}
               alt="Crypto Portfolio"
               width={780}
               height={700}
@@ -28,20 +28,20 @@ const Portfolio = () => {
             initial={{ y: "100%", opacity: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <p className="sm:text-28 text-18 text-muted mb-4">
-              Full-Funnel IT Company  <span className="text-primary">in Kathmandu</span>
-            </p>
+            {/* <p className="sm:text-28 text-18 text-muted mb-4">
+              Full-Funnel IT Company{" "}
+              <span className="text-primary">in Kathmandu</span>
+            </p> */}
             <h2 className="text-white sm:text-40 text-30 mb-4 font-medium">
-
-NepByte – Driving Results from 
-
+              NepByte – Driving Results from
               <span className="text-primary"> Clicks to Conversions</span> !
             </h2>
             <p className="text-muted text-opacity-60 text-18">
-At NepByte, we don’t just build websites - we build entire digital journeys. As one of Kathmandu’s leading IT companies.
+              At NepByte, we don’t just build websites - we build entire digital
+              journeys. As one of Kathmandu’s leading IT companies.
             </p>
 
-            <table className="w-full sm:w-[80%]">
+            <table className="w-full sm:w-[100%]">
               <tbody>
                 {portfolioData.map((item, index) => (
                   <tr
@@ -51,7 +51,7 @@ At NepByte, we don’t just build websites - we build entire digital journeys. A
                     <td className="py-5">
                       <div className="bg-primary p-4 rounded-full bg-opacity-20 w-fit">
                         <Image
-                          src= {`${getImagePrefix()}${item.image}`}
+                          src={`${getImagePrefix()}${item.image}`}
                           alt={item.title}
                           width={35}
                           height={35}
@@ -61,8 +61,14 @@ At NepByte, we don’t just build websites - we build entire digital journeys. A
                     <td className="py-5">
                       <h4 className="text-muted sm:text-28 text-22 ml-5">
                         {item.title}
+                      
                       </h4>
+                       <p className="text-muted sm:text-16 text-12 ml-5">
+                        {item.short}
+                      
+                      </p>
                     </td>
+                  
                   </tr>
                 ))}
               </tbody>
