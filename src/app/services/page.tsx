@@ -3,52 +3,54 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
+// Remove metadata import and export
+
 const services = [
   {
     title: "Domain & Hosting",
-    short: "Reliable & Secure",
+    short: "We provide domain registration and web hosting services in Nepal. You can build your website using fast servers with high security and quality to keep your website live.",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-blue-600 bg-opacity-20",
     href: "/domain",
   },
   {
     title: "App Development",
-    short: "Custom Mobile & Web Apps",
+    short: "We build custom mobile and web applications that are fast, scalable, and user-friendly — tailored to your unique business needs.",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-green-600 bg-opacity-20",
     href: "/appdev",
   },
   {
     title: "Web Development",
-    short: "Modern & Responsive",
+    short: "We create fast, responsive, and modern websites that perform well on every device and help grow your business online.",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-purple-600 bg-opacity-20",
     href: "/webiste",
   },
   {
     title: "UI/UX Design",
-    short: "User-Friendly Interfaces",
+    short: "We design clean, intuitive, and visually stunning interfaces that give users the best possible experience across web and mobile platforms.",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-pink-600 bg-opacity-20",
     href: "/uiux",
   },
   {
     title: "Graphic Designing",
-    short: "Creative & Impactful",
+    short: "Our  graphic designers can create beautiful logos, websites, apps, and graphics for social media. We want the design to be clean, modern, and easy to understand, so it remains visually engaging.",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-yellow-500 bg-opacity-20",
     href: "/graphics",
   },
   {
     title: "SEO",
-    short: "Boost Your Rankings",
+    short: "Improve your online visibility, rank higher on Google, and drive more traffic to your website with our expert SEO strategies.",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-red-600 bg-opacity-20",
     href: "/seo",
   },
   {
     title: "Digital Marketing",
-    short: "Grow Your Business",
+    short: "Boost your brand awareness, engage your audience, and increase conversions with our cutting-edge digital marketing strategies.",
     icon: "/images/portfolio/icon-wallet.svg",
     background: "bg-teal-600 bg-opacity-20",
     href: "/digitalmarketing",
@@ -97,7 +99,7 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-darkmode text-white pt-44 pb-20 px-6">
       {/* Hero Section */}
       <section className="text-center max-w-4xl mx-auto mb-20">
-        <h1 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 mb-6">
+        <h1 className="text-5xl md:text-6xl font-extrabold text-primary bg-clip-text  mb-6">
           Our Services
         </h1>
         <p className="text-slate-300 text-lg md:text-xl">

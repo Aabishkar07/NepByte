@@ -54,7 +54,7 @@ const Hero = () => {
 
   return (
     <section
-      className="relative md:pt-40 md:pb-28 py-20 overflow-hidden z-1"
+      className="relative md:pt-40  py-20 overflow-hidden z-1"
       id="main-banner"
     >
       <div className="container mx-auto lg:max-w-screen-xl px-4">
@@ -141,9 +141,10 @@ const Hero = () => {
             <div className="ml-20 -mr-64">
               <Image
                 src={`${getImagePrefix()}images/hero/banner-image.png`}
-                alt="Banner"
-                width={1150}
-                height={1150}
+                alt="NepByte IT Solutions - Web and App Development Services in Kathmandu"
+                width={650}
+                height={800}
+                priority
               />
             </div>
           </motion.div>

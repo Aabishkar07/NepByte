@@ -1,8 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
-  "/services/page": "app/services/page.js",
-  "/seo/page": "app/seo/page.js",
-  "/digitalmarketing/page": "app/digitalmarketing/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
-}

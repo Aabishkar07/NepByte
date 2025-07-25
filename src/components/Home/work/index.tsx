@@ -37,6 +37,9 @@ const Work = () => {
     "Graphic Design",
     "Digital Marketing",
     "Domain & Hosting",
+    "Backlinks",
+    "Other Tech Solutions",
+
   ];
 
   return (
@@ -204,7 +207,7 @@ const Work = () => {
                 >
                   <Image
                     src={`${getImagePrefix()}images/work/img-work-with-us.png`}
-                    alt="NepByte IT Solutions"
+                    alt="NepByte IT Solutions - Professional Software Development Services in Kathmandu"
                     width={600}
                     height={425}
                     className="w-full h-auto object-cover"

@@ -16,8 +16,8 @@ const Portfolio = () => {
             className="lg:-ml-32"
           >
             <Image
-              src={`${getImagePrefix()}images/portfolio/img-portfolio.png`}
-              alt="Crypto Portfolio"
+              src= {`${getImagePrefix()}images/portfolio/img-portfolio.png`}
+              alt="NepByte Digital Solutions Portfolio - IT Services in Kathmandu"
               width={780}
               height={700}
             />
@@ -51,8 +51,8 @@ const Portfolio = () => {
                     <td className="py-5">
                       <div className="bg-primary p-4 rounded-full bg-opacity-20 w-fit">
                         <Image
-                          src={`${getImagePrefix()}${item.image}`}
-                          alt={item.title}
+                          src= {`${getImagePrefix()}${item.image}`}
+                          alt={`${item.title} - NepByte IT Services`}
                           width={35}
                           height={35}
                         />
