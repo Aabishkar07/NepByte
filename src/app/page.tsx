@@ -58,12 +58,13 @@ export const metadata: Metadata = {
     creator: '@nepbyte',
     images: ['/images/logo/logo.png'],
   },
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
-  },
   category: 'technology',
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
 };
 
 export default function Home() {
