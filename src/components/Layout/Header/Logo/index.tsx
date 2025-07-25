@@ -7,7 +7,7 @@ const Logo: React.FC = () => {
     <Link href="/">
       <Image className="w-56"
         src={`${getImagePrefix()}images/logo/main.png`}
-        alt="logo"
+        alt="NepByte - IT & Software Development Company in Kathmandu"
         width={160}
         height={50}
         // style={{ width: "auto", height: "auto" }}

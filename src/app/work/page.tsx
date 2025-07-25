@@ -13,48 +13,49 @@ const tabs = [
 const portfolioItems = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Organization Website",
     category: "website",
     description:
-      "A scalable online store with integrated payment and inventory management.",
-    image: "/portfolio/ecommerce.jpg",
+      "MHSNepal Mental Health Counselling",
+    image: "/images/portfolio/mhsn.jpg",
+    href: "https://mhsnepal.org/",
   },
-  {
-    id: 2,
-    title: "Social Media App",
-    category: "app",
-    description:
-      "A mobile app enabling real-time social interactions and media sharing.",
-    image: "/portfolio/social-app.jpg",
-  },
-  {
-    id: 3,
-    title: "Corporate Website",
-    category: "website",
-    description: "A sleek website for a multinational company with responsive design.",
-    image: "/portfolio/corporate-website.jpg",
-  },
-  {
-    id: 4,
-    title: "Logo & Branding",
-    category: "graphics",
-    description: "Creative branding solutions with memorable logos.",
-    image: "/portfolio/branding.jpg",
-  },
-  {
-    id: 5,
-    title: "Analytics Dashboard",
-    category: "website",
-    description: "Custom dashboard providing actionable business insights in real-time.",
-    image: "/portfolio/analytics-dashboard.jpg",
-  },
-  {
-    id: 6,
-    title: "Travel Booking App",
-    category: "app",
-    description: "Full-featured booking app with user reviews and secure payments.",
-    image: "/portfolio/travel-portal.jpg",
-  },
+  // {
+  //   id: 2,
+  //   title: "Social Media App",
+  //   category: "app",
+  //   description:
+  //     "A mobile app enabling real-time social interactions and media sharing.",
+  //   image: "/portfolio/social-app.jpg",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Corporate Website",
+  //   category: "website",
+  //   description: "A sleek website for a multinational company with responsive design.",
+  //   image: "/portfolio/corporate-website.jpg",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Logo & Branding",
+  //   category: "graphics",
+  //   description: "Creative branding solutions with memorable logos.",
+  //   image: "/portfolio/branding.jpg",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Analytics Dashboard",
+  //   category: "website",
+  //   description: "Custom dashboard providing actionable business insights in real-time.",
+  //   image: "/portfolio/analytics-dashboard.jpg",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Travel Booking App",
+  //   category: "app",
+  //   description: "Full-featured booking app with user reviews and secure payments.",
+  //   image: "/portfolio/travel-portal.jpg",
+  // },
 ];
 
 export default function PortfolioTabs() {
@@ -109,8 +110,14 @@ export default function PortfolioTabs() {
         {/* Portfolio Grid */}
         <motion.div layout className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
           <AnimatePresence>
-            {filteredItems.map(({ id, title, description, image }) => (
-              <motion.div
+            {filteredItems.map(({ id, title, description, image , href }) => (
+              <a
+    key={id}
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+             <motion.div
                 key={id}
                 layout
                 initial={{ opacity: 0, y: 30 }}
@@ -119,7 +126,7 @@ export default function PortfolioTabs() {
                 transition={{ duration: 0.3 }}
                 className="bg-white/10 backdrop-blur-md rounded-xl overflow-hidden border border-white/20 cursor-pointer shadow-lg hover:shadow-2xl transition-shadow duration-300"
               >
-                <div className="relative h-48 overflow-hidden">
+                <div className="relative h-60 overflow-hidden">
                   <img
                     src={image}
                     alt={title}
@@ -131,6 +138,7 @@ export default function PortfolioTabs() {
                   <p className="text-slate-300 text-sm">{description}</p>
                 </div>
               </motion.div>
+              </a>
             ))}
           </AnimatePresence>
         </motion.div>

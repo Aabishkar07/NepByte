@@ -37,10 +37,13 @@ const Work = () => {
     "Graphic Design",
     "Digital Marketing",
     "Domain & Hosting",
+    "Backlinks",
+    "Other Tech Solutions",
+
   ];
 
   return (
-    <section className="py-16 lg:py-24 relative overflow-hidden" id="work">
+    <section className="py-2 relative overflow-hidden" id="work">
       {/* Background Elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-1/4 left-10 w-72 h-72 bg-primary rounded-full blur-3xl"></div>
@@ -167,7 +170,7 @@ const Work = () => {
               className="mt-8 pt-6 border-t border-white/10"
             >
               <p className="text-muted text-sm">
-                ⭐ <strong className="text-white">Trusted by 100+ Nepali businesses</strong> • On-time delivery • Expert
+                ⭐ <strong className="text-white">Trusted by 5+ Nepali businesses</strong> • On-time delivery • Expert
                 support
               </p>
             </motion.div>
@@ -204,7 +207,7 @@ const Work = () => {
                 >
                   <Image
                     src={`${getImagePrefix()}images/work/img-work-with-us.png`}
-                    alt="NepByte IT Solutions"
+                    alt="NepByte IT Solutions - Professional Software Development Services in Kathmandu"
                     width={600}
                     height={425}
                     className="w-full h-auto object-cover"
@@ -228,7 +231,7 @@ const Work = () => {
                   }}
                   className="absolute -top-4 right-8 bg-primary text-white px-4 py-2 rounded-full text-sm font-medium shadow-lg"
                 >
-                  100+ Projects
+                  5+ Projects
                 </motion.div>
 
                 <motion.div

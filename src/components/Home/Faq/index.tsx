@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 const FAQ = () => {
-  const [openItems, setOpenItems] = useState({});
+const [openItems, setOpenItems] = useState<{ [key: number]: boolean }>({});
 
   const faqData = [
     {
@@ -39,12 +39,12 @@ const FAQ = () => {
 
   ];
 
-  const toggleFAQ = (index) => {
-    setOpenItems((prev) => ({
-      ...prev,
-      [index]: !prev[index],
-    }));
-  };
+const toggleFAQ = (index: number) => {
+  setOpenItems((prev) => ({
+    ...prev,
+    [index]: !prev[index],
+  }));
+};
 
   return (
     <section className="py-16 md:py-24 relative">

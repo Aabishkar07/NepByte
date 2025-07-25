@@ -5,7 +5,7 @@ import { getImagePrefix } from "@/utils/utils";
 
 const Upgrade = () => {
   return (
-    <section className="md:py-40 py-20" id="upgrade">
+    <section className="py-20" id="upgrade">
       <div className="container mx-auto lg:max-w-screen-xl px-4">
         <div className="grid lg:grid-cols-2 sm:gap-0 gap-10 items-center">
           <div>
@@ -42,7 +42,7 @@ The right IT partner could make a world of difference. Here are a few reasons wh
             <div className="">
               <Image
                 src= {`${getImagePrefix()}images/upgrade/img-upgrade.png`}
-                alt="image"
+                alt="NepByte IT Solutions - Professional IT Services in Kathmandu"
                 width={625}
                 height={580}
                 className="-mr-5"
@@ -51,6 +51,10 @@ The right IT partner could make a world of difference. Here are a few reasons wh
           </div>
         </div>
       </div>
+
+
+
+      
     </section>
   );
 };

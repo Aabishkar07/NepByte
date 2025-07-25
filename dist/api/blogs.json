@@ -1,0 +1,24 @@
+[
+  {
+    "title": "The Universe is all of time and space and its contents.",
+    "slug": "the-universe-is-all-of-time-and-space-and-its-contents",
+    "excerpt": "The Universe is all of time and space and its contents.",
+    "date": "2024-05-23",
+    "coverImage": "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg",
+    "author": "silicaman",
+    "authorImage": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg",
+    "content": "# Main Heading & Points\n\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\n\n- Vivamus eu lacus scelerisque, placerat commodo lectus.\n- Etiam et ante at ex porta fringilla.\n- Nullam dignissim sem eu magna aliquet, sit amet volutpat tellus\n\n![Blog Details](https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg)\n\nUnknown printer took a galley of type and scrambled it to make a type specimen book.\n\n---\n\nWe are a dedicated team of passionate product managers, developers, UX/UI designers, QA engineers experts helping businesses from new startups\n\n---\n\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable making this the first true generator on the Internet. It uses a dictionary\n\n---\n\n## Tags\n- Trends\n- Design\n- Research\n",
+    "tags": ["Trends", "Design", "Research"]
+  },
+  {
+    "title": "Exploring the Wonders of Space",
+    "slug": "exploring-the-wonders-of-space",
+    "excerpt": "A journey through the most fascinating aspects of our universe.",
+    "date": "2024-05-20",
+    "coverImage": "https://images.pexels.com/photos/2156/sky-space-dark-galaxy.jpg",
+    "author": "astrofan",
+    "authorImage": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+    "content": "# Exploring the Cosmos\n\nSpace is vast and full of mysteries. From black holes to distant galaxies, the universe never ceases to amaze.\n\n- The Milky Way is just one of billions of galaxies.\n- Black holes are regions of spacetime exhibiting gravitational acceleration so strong that nothing can escape.\n- The observable universe is about 93 billion light-years in diameter.\n\n![Space](https://images.pexels.com/photos/2156/sky-space-dark-galaxy.jpg)\n\n---\n\n## Tags\n- Space\n- Science\n- Astronomy\n",
+    "tags": ["Space", "Science", "Astronomy"]
+  }
+] 

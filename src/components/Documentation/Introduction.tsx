@@ -75,7 +75,7 @@ export const Introduction = () => {
                 >
                   <Image
                     src= {`${getImagePrefix()}${item.img}`}
-                    alt="npm-package"
+                    alt={`${item.packageName} v${item.version} - NepByte Documentation`}
                     className=" mx-auto w-10 h-10 "
                   />
                   <h5 className="text-2xl font-bold mt-3.5 text-white">{`v${item.version}`}</h5>

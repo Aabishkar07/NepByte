@@ -13,8 +13,7 @@ export default function GraphicDesignPage() {
           Graphic Designing
         </h1>
         <p className="text-slate-300 text-lg md:text-xl">
-          Elevate your brand with creative and impactful visual designs that leave a lasting impression and engage your audience.
-        </p>
+Our Kathmandu graphic designers can create beautiful logos, websites, apps, and graphics for social media. We want the design to be clean, modern, and easy to understand, so it remains visually engaging.        </p>
       </section>
 
       {/* Features Section */}

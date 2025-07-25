@@ -163,9 +163,9 @@ export default function AboutUs() {
             transition={{ delay: 0.2 }}
             className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed"
           >
-            We're not just developers — we're digital architects, crafting tomorrow's solutions today.
-            Our passionate team transforms ambitious visions into powerful, scalable digital experiences
-            that drive real business growth.
+           NepByte is a smart and simple IT company in Kathmandu. We are a group of young and skilled people who love technology. We started with a dream to help Nepali businesses grow using digital tools. Today, we offer web development, app building, SEO, graphic design, marketing, and more.
+We care about your business. We listen to your ideas and create solutions that work. With us, you’re not just getting a service – you’re getting a team that truly wants to help you succeed.
+
           </motion.p>
 
           <motion.div
@@ -273,6 +273,65 @@ export default function AboutUs() {
           </motion.div>
         </motion.div>
 
+
+        <motion.div {...fadeIn} className="mb-24">
+
+
+<div className="bg-gradient-to-br from-blue-500/20 to-purple-600/20 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
+  <div className="flex items-center mb-4">
+    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-blue-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M12 18h.01M12 20h.01M4 6h16M4 10h16M4 14h16M4 18h16" />
+    </svg>
+    <h2 className="text-3xl font-bold">Trusted by Nepali Businesses</h2>
+  </div>
+  <p className="text-slate-300 leading-relaxed text-lg">
+    NepByte has been privileged to serve a multitude of clients in Kathmandu and across Nepal,
+    including startups, SMEs, schools, and retailers. Our commitment to quality and experience
+    has led to strong and lasting relationships with our clients.
+    <br /><br />
+    As a trusted IT company in Kathmandu, we help local businesses grow online.
+    See our client testimonials and success stories to discover how NepByte is making a digital difference.
+  </p>
+</div>
+        </motion.div>
+
+
+
+
+
+      {/* Services Grid */}
+        <motion.div {...fadeIn} className="mb-24">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4">What We Do Best</h2>
+            <p className="text-slate-300 text-lg max-w-2xl mx-auto">
+              Comprehensive technology solutions tailored to your business needs
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+            {services.map((service, index) => (
+              <motion.div
+                key={index}
+                whileHover={{ scale: 1.05 }}
+                className="bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-lg rounded-lg p-4 border border-white/10 hover:border-blue-500/50 transition-all duration-300 group"
+              >
+                <div className="flex items-center">
+                  <CheckCircle className="w-5 h-5 text-green-400 mr-3 group-hover:scale-110 transition-transform duration-300" />
+                  <span className="text-slate-300 group-hover:text-white transition-colors duration-300">
+                    {service}
+                  </span>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+
+
+
+        
+
+
+
         {/* Team Section */}
         <motion.div {...fadeIn} className="mb-24">
           <div className="text-center mb-16">
@@ -312,32 +371,7 @@ export default function AboutUs() {
           </motion.div>
         </motion.div>
 
-        {/* Services Grid */}
-        <motion.div {...fadeIn} className="mb-24">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">What We Do Best</h2>
-            <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-              Comprehensive technology solutions tailored to your business needs
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {services.map((service, index) => (
-              <motion.div
-                key={index}
-                whileHover={{ scale: 1.05 }}
-                className="bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-lg rounded-lg p-4 border border-white/10 hover:border-blue-500/50 transition-all duration-300 group"
-              >
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-green-400 mr-3 group-hover:scale-110 transition-transform duration-300" />
-                  <span className="text-slate-300 group-hover:text-white transition-colors duration-300">
-                    {service}
-                  </span>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
+  
 
         {/* CTA Section */}
         <motion.div
